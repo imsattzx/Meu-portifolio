@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0F172A">
+  <meta name="description" content="Portfólio de desenvolvimento web, aplicações e projetos digitais.">
+  <title>Portfólio | Desenvolvedor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Início do portfólio"><img class="brand-logo" src="assets/Logo.png" alt=""><span>portfólio<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menu"><span></span><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a><a href="#formacao">Formação</a><a href="#projetos">Projetos</a>
+        <a class="nav-contact" href="#contato">Contato <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero container" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-copy" data-reveal>
+        <p class="eyebrow"><span class="status-dot"></span> DESENVOLVIMENTO · TECNOLOGIA · APRENDIZADO</p>
+        <h1 id="hero-title">Tecnologia que<br><span class="text-accent">transforma ideias em experiências</span></h1>
+        <p class="hero-description">Estudante de Informática e desenvolvedor em formação. Gosto de transformar desafios em soluções digitais funcionais, com atenção aos detalhes e vontade constante de aprender.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projetos">Explorar projetos <span aria-hidden="true">↓</span></a><a class="button button-quiet" href="#sobre">Conhecer trajetória <span aria-hidden="true">↗</span></a></div>
+        <a class="whatsapp-link" href="https://wa.me/5583981149572?text=Ol%C3%A1%2C%20vim%20pelo%20seu%20portf%C3%B3lio." target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.8a8.5 8.5 0 0 1-12.6 7.4L3 20l.9-4.7a8.5 8.5 0 1 1 16.6-3.5Z"/><path d="M8.7 8.5c.2-.5.4-.5.7-.5h.5c.2 0 .4.1.5.4l.7 1.7c.1.2.1.4-.1.6l-.5.6c-.2.2-.2.4-.1.6.5.9 1.2 1.6 2.1 2.1.2.1.4.1.6-.1l.7-.8c.2-.2.4-.2.6-.1l1.6.8c.2.1.3.3.3.5 0 .3-.2 1.2-.8 1.6-.5.4-1.1.6-1.8.4-.6-.1-1.3-.3-2.2-.8a8.5 8.5 0 0 1-2.8-2.4c-.7-.9-1.1-1.9-1.2-2.6-.1-.8.2-1.5.6-2Z"/></svg>
+          <span>Converse pelo WhatsApp</span><span aria-hidden="true">↗</span>
+        </a>
+      </div>
+      <div class="hero-visual" data-reveal aria-label="Composição gráfica com código e interface">
+        <div class="visual-grid" aria-hidden="true"></div><div class="visual-orbit orbit-one" aria-hidden="true"></div><div class="visual-orbit orbit-two" aria-hidden="true"></div>
+        <div class="code-window"><div class="window-bar"><div class="window-dots"><i></i><i></i><i></i></div><span>portfolio.js</span><span class="window-lock" aria-hidden="true">⌘</span></div>
+          <pre aria-label="Código JavaScript decorativo"><code><span class="code-line"><b>01</b> <i>const</i> <em>developer</em> = {</span><span class="code-line"><b>02</b>   focus: <strong>'experiências'</strong>,</span><span class="code-line"><b>03</b>   learning: [</span><span class="code-line"><b>04</b>     <strong>'web'</strong>, <strong>'mobile'</strong>,</span><span class="code-line"><b>05</b>     <strong>'novas ideias'</strong></span><span class="code-line"><b>06</b>   ],</span><span class="code-line"><b>07</b>   status: <mark>'em evolução'</mark></span><span class="code-line"><b>08</b> };</span><span class="code-line code-cursor"><b>09</b> <i>build</i>(<em>withPurpose</em>);</span></code></pre>
+        </div>
+        <div class="float-chip chip-blue"><span class="chip-symbol">{ }</span><span><small>CRIANDO</small><strong>com propósito</strong></span></div>
+        <div class="float-chip chip-green"><span class="chip-symbol">↗</span><span><small>SEMPRE</small><strong>aprendendo</strong></span></div>
+        <span class="visual-index">01 — 03</span>
+      </div>
+      <a class="scroll-cue" href="#sobre"><span></span> role para explorar</a>
+    </section>
+
+    <section class="section about-section" id="sobre" aria-labelledby="about-title">
+      <div class="container about-layout">
+        <div class="section-heading" data-reveal><p class="eyebrow">01 / SOBRE</p><h2 id="about-title">Tecnologia com<br><span class="text-accent">curiosidade e intenção.</span></h2></div>
+        <div class="about-content" data-reveal><p>Minha trajetória combina a base criativa da programação de jogos com a formação técnica em Informática. Em cada projeto, busco praticar, experimentar e construir soluções que façam sentido para quem usa.</p><div class="tech-list" aria-label="Tecnologias e áreas presentes nos projetos"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Aplicações web</span><span>Android</span></div></div>
+      </div>
+    </section>
+
+    <section class="section education-section" id="formacao" aria-labelledby="education-title">
+      <div class="container">
+        <div class="section-heading section-heading-wide" data-reveal><p class="eyebrow">02 / TRAJETÓRIA</p><h2 id="education-title">Formação &amp; <span class="text-accent">aprendizado.</span></h2><p class="section-intro">Uma base em desenvolvimento de jogos e uma formação técnica em andamento.</p></div>
+        <div class="education-list">
+          <article class="education-item" data-reveal><span class="education-marker marker-orange" aria-hidden="true"></span><div class="education-meta"><span>FORMAÇÃO CONCLUÍDA</span><span>Programação</span></div><div class="education-detail"><h3>Programação em Jogos Digitais</h3><p>ECIT Valdemiro Wanderley de Oliveira</p><p class="education-summary">Formação com foco em lógica, criação de jogos digitais e desenvolvimento de projetos interativos.</p></div><span class="education-arrow" aria-hidden="true">↗</span></article>
+          <article class="education-item" data-reveal><span class="education-marker marker-green" aria-hidden="true"></span><div class="education-meta"><span>EM ANDAMENTO</span><span>Formação técnica</span></div><div class="education-detail"><h3>Informática</h3><p>IFSertão</p><p class="education-summary">Atualmente cursando Informática, ampliando conhecimentos na área de tecnologia.</p></div><span class="education-arrow" aria-hidden="true">↗</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projetos" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="projects-heading" data-reveal><div class="section-heading"><p class="eyebrow">03 / SELEÇÃO</p><h2 id="projects-title">Projetos em <span class="text-accent">destaque.</span></h2></div><p class="section-intro">Experimentos e soluções desenvolvidos durante minha jornada de aprendizado.</p></div>
+        <div class="project-grid">
+          <article class="project-card project-featured" data-reveal><div class="project-art art-game"><img class="project-image" src="assets/Mario_Jump.png" alt="Captura de tela do jogo Mario Jump" loading="lazy" decoding="async"><div class="art-label"><span>JOGO 2D</span><span>01</span></div><span class="art-caption">HTML <i>·</i> CSS <i>·</i> JavaScript</span></div><div class="project-body"><div class="project-title-row"><h3>Mario Jump</h3><span class="project-type">Jogo web</span></div><p>Projeto criado durante o curso de Programação em Jogos Digitais, inspirado em um tutorial do canal Manual Dev. A versão foi ampliada com tela de início, música, pontuação e coleta de moedas.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div></article>
+          <article class="project-card" data-reveal><div class="project-art art-finance"><img class="project-image project-image-portrait" src="assets/controle financeiro.png" alt="Captura de tela do aplicativo de controle financeiro" loading="lazy" decoding="async"><div class="art-label"><span>APLICATIVO</span><span>02</span></div><span class="art-caption">REACT <i>·</i> ANDROID</span></div><div class="project-body"><div class="project-title-row"><h3>Controle financeiro</h3><span class="project-type">App Android</span></div><p>Aplicativo Android desenvolvido com React para apoiar o controle financeiro pessoal, reunindo em um só lugar o acompanhamento das finanças.</p><div class="project-tags"><span>React</span><span>Android</span></div></div></article>
+          <article class="project-card" data-reveal><div class="project-art art-dashboard"><img class="project-image" src="assets/painel para gestão de loja.png" alt="Captura de tela do painel de gestão da loja" loading="lazy" decoding="async"><div class="art-label"><span>GESTÃO</span><span>03</span></div><span class="art-caption">RESPONSIVO <i>·</i> COM BANCO DE DADOS</span></div><div class="project-body"><div class="project-title-row"><h3>Painel de gestão para loja</h3><span class="project-type">Sistema web</span></div><p>Painel responsivo e hospedado para gerenciamento de dados da loja. Permite cadastrar e editar registros, que ficam salvos em banco de dados.</p><div class="project-tags"><span>Web</span><span>Banco de dados</span><span>CRUD</span></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contato" aria-labelledby="contact-title"><div class="container contact-inner" data-reveal><div><p class="eyebrow">VAMOS CONVERSAR?</p><h2 id="contact-title">Toda boa ideia<br>começa com um <span class="text-accent">olá.</span></h2><p class="contact-description">Estou aberto a aprender, colaborar e conhecer novos desafios na área de tecnologia.</p></div><div class="contact-graphic" aria-hidden="true"><span class="contact-bracket">{</span><span class="contact-spark">✳</span><span class="contact-bracket">}</span></div><a class="button button-primary contact-button" href="https://wa.me/5583981149572?text=Ol%C3%A1%2C%20vim%20pelo%20seu%20portf%C3%B3lio." target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.8a8.5 8.5 0 0 1-12.6 7.4L3 20l.9-4.7a8.5 8.5 0 1 1 16.6-3.5Z"/><path d="M8.7 8.5c.2-.5.4-.5.7-.5h.5c.2 0 .4.1.5.4l.7 1.7c.1.2.1.4-.1.6l-.5.6c-.2.2-.2.4-.1.6.5.9 1.2 1.6 2.1 2.1.2.1.4.1.6-.1l.7-.8c.2-.2.4-.2.6-.1l1.6.8c.2.1.3.3.3.5 0 .3-.2 1.2-.8 1.6-.5.4-1.1.6-1.8.4-.6-.1-1.3-.3-2.2-.8a8.5 8.5 0 0 1-2.8-2.4c-.7-.9-1.1-1.9-1.2-2.6-.1-.8.2-1.5.6-2Z"/></svg> Falar comigo no WhatsApp <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="#inicio"><img class="brand-logo" src="assets/Logo.png" alt=""><span>portfólio<span class="brand-dot">.</span></span></a><p>Feito com curiosidade e código.</p><span>© <span id="current-year"></span></span></div></footer>
+</body>
+</html>
